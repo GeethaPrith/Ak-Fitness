@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import './app//scss/variables';
+
+/* fonts-icon */
+@import './app/scss/fonts/fontawesome/scss/fontawesome';
+@import './app/scss/fonts/feather/iconfont';
+
+@import './app/scss/general';
+@import './app/scss/generic';
+@import './app/scss/mixins/function';
+
+/* important element */
+@import './app/scss/menu/menu-lite';
+
+/* basic elements */
+@import './app/theme-elements/theme-elements';
+
+/* third party modules style*/
+@import './app/scss/plugins/plugins';
+
+@import './app/scss/custom';
+
+//@import '/node_modules/bootstrap/scss/variables';
+
+@import 'bootstrap/scss/functions';  // Bootstrap functions
+@import 'bootstrap/scss/mixins';     // Bootstrap mixins
+
+@import '../node_modules/bootstrap/scss/variables';
+@import 'bootstrap/scss/bootstrap';
+

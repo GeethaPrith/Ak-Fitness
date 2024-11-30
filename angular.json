@@ -21,7 +21,8 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+             "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cbe3d3d2-611e-4af2-947a-9316b12f64e3"
   }
 }
